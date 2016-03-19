@@ -1,0 +1,2 @@
+# LaravelReact
+Laravel + React + Vagrant
