@@ -1,2 +1,2 @@
-# Laravel with React test project
+# Laravel with React
 Laravel + React + Vagrant
