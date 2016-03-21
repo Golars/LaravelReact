@@ -1,5 +1,6 @@
+<div id="test"></div>
 <?php
-$javaScriptCode = '
+$javaScriptCode = <<<'STR'
 function FizzBuzz(correspondences) {
     this.correspondences = correspondences;
     this.accept = function (number) {
@@ -18,7 +19,9 @@ function FizzBuzz(correspondences) {
 }
 var myFizzBuzz = new FizzBuzz({3 : "Fizz", 5 : "Buzz"});
 myFizzBuzz.accept(15);
-';
+STR;
+;
+
 $v8 = new V8Js();
 var_dump($v8->executeString($javaScriptCode));
 

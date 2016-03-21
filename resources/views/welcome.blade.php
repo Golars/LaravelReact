@@ -39,7 +39,12 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                @react_component('Alert', [ 'name' => 'Hello World' ], [ 'prerender' => true ])
             </div>
         </div>
+        <script src="{{ asset('vendor/react-laravel/react.js') }}"></script>
+        <script src="{{ asset('vendor/react-laravel/react-dom.js') }}"></script>
+        <script src="{{ asset('js/components.js') }}"></script>
+        <script src="{{ asset('vendor/react-laravel/react_ujs.js') }}"></script>
     </body>
 </html>
