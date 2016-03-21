@@ -1,8 +1,7 @@
 # Laravel with React
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Golars/LaravelReact/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Golars/LaravelReact/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/Golars/LaravelReact/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Golars/Laravel
+[![Build Status](https://scrutinizer-ci.com/g/Golars/LaravelReact/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Golars/LaravelReact/build-status/master)
 
-React/build-status/master)
 Laravel + React + Vagrant
 **This is the PHP 5.x branch of V8Js**.
 
