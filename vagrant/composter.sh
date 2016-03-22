@@ -12,6 +12,7 @@ else
     composer install
 fi
 copmoser update
+php artisan vendor:publish
 wget https://phar.phpunit.de/phpunit.phar
 chmod +x phpunit.phar
 sudo mv phpunit.phar /usr/local/bin/phpunit

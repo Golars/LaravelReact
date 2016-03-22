@@ -13,3 +13,8 @@ add-apt-repository ppa:ondrej/php5-5.6
 apt-get -y update
 sudo aptitude install -q -y -f php5-cli php5-curl php5-gd
 sudo apt-get -y upgrade php5-fpm
+
+sudo apt-get install php-pear
+sudo pecl search xdebug
+sudo echo "zend_extension=/usr/lib/php5/20131226/xdebug.so" >>/etc/php5/fpm/php.ini
+sudo service php5-fpm restart
